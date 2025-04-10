@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-ai-rag
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+server:
+  port: 7001
+sfg:
+  aiapp:
+    vectorStorePath: D:\\TEMP\\vectorstore.json
+    documentsToLoad:
+      - classpath:/movies500.csv
